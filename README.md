@@ -4,4 +4,4 @@ View here: https://rafia-k.github.io/word-clock-app/
 
 A React web app inspired by the following word clock:
 
-[](public/inspiration-pic.jpg)
+![](public/inspiration-pic.jpg)
