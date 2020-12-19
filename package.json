@@ -1,21 +1,17 @@
 {
-  "name": "word-clock-app",
+  "name": "clock-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rafia-k.github.io/word-clock-app",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
-    "gh-pages": "^3.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "^4.0.1",
     "typescript": "^4.1.3"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
