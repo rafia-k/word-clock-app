@@ -31,7 +31,7 @@ function lightWords(wordsStartMap, wordsEndMap, hour, mins, m) {
   } else if (8 <= m && m < 13) {
     light(wordsStartMap, "TEN");
     light(wordsStartMap, "MINUTES");
-  } else if (13 <= m && 18) {
+  } else if (13 <= m && m < 18) {
     light(wordsStartMap, "QUARTER");
   } else if (18 <= m && m < 23) {
     light(wordsStartMap, "TWENTY");
@@ -42,14 +42,14 @@ function lightWords(wordsStartMap, wordsEndMap, hour, mins, m) {
     light(wordsStartMap, "MINUTES");
   }
 
-  if (3 <= mins && mins < 30) {
+  if (3 <= mins && mins <= 27) {
     light(wordsStartMap, "PAST");
-  } else if (30 < mins && mins <= 57) {
+  } else if (33 <= mins && mins <= 57) {
     light(wordsStartMap, "TO");
   }
 
   // hour
-  if (0 <= mins && mins < 30) {
+  if (0 <= mins && mins <= 32) {
     light(wordsEndMap, numToWord[hour]);
   } else {
     if (hour === 12) {
